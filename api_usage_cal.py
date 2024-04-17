@@ -3,10 +3,10 @@ import pandas as pd
 
 yen_rate = 150
 
-def display_selected_columns_and_total(data):
+def display_selected_columns_and_total(data, columns=['context_tokens', 'context_price', 'generated_tokens', 'generated_price', 'total_price']):
     # 結果を表示する
     total = data['context_price'].sum() + data['generated_price'].sum()
-    print(data[['context_tokens', 'context_price', 'generated_tokens', 'generated_price', 'total_price']])
+    print(data[columns])
     print("total_price: ", total)
 
 def rename_columns_and_fill_nan(df):
