@@ -3,4 +3,7 @@ gpt-4-0125-preview, 10.00, 30.00, 1000000
 gpt-4-1106-preview, 10.00, 30.00, 1000000
 gpt-3.5-turbo-0125, 0.50, 1.50, 1000000
 gpt-3.5-turbo-16k-0613, 3.00, 4.00, 1000000
-text-embedding-ada-002-v2, 0.02, 0.02, 1000000
+text-embedding-ada-002-v2, 0.10, 0.10, 1000000
+text-embedding-3-small, 0.02, 0.02, 1000000
+text-embedding-3-large, 0.13, 0.13, 1000000
+ft:gpt-3.5-turbo-1106, 3.00, 6.00, 1000000
